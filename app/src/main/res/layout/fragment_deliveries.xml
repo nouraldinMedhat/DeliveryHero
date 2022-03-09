@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#fff"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#fff"
+        android:id="@+id/no_deliveries">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/pending"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/you_have_no_panding_deliveries"
+            android:textSize="20sp"
+            android:textColor="#333"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/please_move_back_towards_the_center_of_your_zone"
+            android:textSize="18sp"
+            android:textColor="#555"
+            android:gravity="center"
+            android:layout_margin="20dp"/>
+
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@drawable/outline"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <RadioButton
+            android:id="@+id/current_order_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="1dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/switch_off"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="@dimen/fab_margin"
+            android:text="@string/current_order"
+            android:textColor="@drawable/switch_text"
+            android:layout_marginLeft="1dp" />
+
+        <RadioButton
+            android:id="@+id/pending_order_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/switch_on"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="@dimen/fab_margin"
+            android:text="@string/pending_order"
+            android:textColor="@drawable/switch_text"
+            android:layout_marginRight="1dp" />
+    </RadioGroup>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/deliveries_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        />
+
+    <!--<androidx.recyclerview.widget.RecyclerView-->
+        <!--android:id="@+id/pending_list"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:visibility="gone"-->
+        <!--/>-->
+
+
+
+</LinearLayout>

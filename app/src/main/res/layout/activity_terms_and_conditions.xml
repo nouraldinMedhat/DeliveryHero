@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TermsAndConditions"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_keyboard_backspace_black_24dp"
+            android:layout_gravity="center_vertical"
+            android:onClick="backApp"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textColor="#333"
+            android:text="الشروط والاحكام"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="1"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutDirection="rtl"
+            android:textDirection="rtl"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="١ -  تطبيق سيل هيرو هو تطبيق يوفر للشركاء خدمه توصيل الطلبات ،  التطبيق غير مسؤول عن اى طلب يتم الغاءه وفى حاله حدوث ذلك يتم التفاهم بين الاطراف المعنيه بالود فى ما بينهم .
+\n
+٢ - يأخذ التطبيق 25٪ من ارباح المندوب الاجمالية .
+\n
+٣ -  يتوقف حساب المندوب عن العمل في حاله عدم سداد المندوب مستحقات التطبيق ويتم السماح له بالعمل عندما يقوم بسداد المستحقات بالطرق المتاحه .
+\n
+٤ - لا يسمح التطبيق من إنشاء اكثر من حساب لنفس المندوب و يتم التأكد من عدم التكرار حسب الرقم القومي .
+\n
+٥ - يمنع التطبيق توصيل طلب يتكون من مواد مخدره او ادويه ممنوعه او كحوليات و خمور او اموال او هدايا قيمه او اي شئ مخالف لقنوانين الدولة .
+\n
+٦ - لا يفرض التطبيق علي المندوب العمل بوسيله مواصلات ويمكن العمل بالدراجة النارية و الدراجة الهوائية و السيارة و بدون مركبه نهائيا .
+\n
+٧ - لا يفرض التطبيق علي المندوب الألتزام بزي خاص او صندوق خاص .
+\n
+٨ - لا يفرض التطبيق علي المندوب العمل بساعات عمل ثابته .
+\n
+٩ - لا يفرض التطبيق علي المطعم عدد طلبات مطلوبة .
+\n
+١٠ - لا يفرض التطبيق علي المطعم دفع أي رسوم او اشتراك او اي تكلفه ."/>
+        \n"/>
+    </ScrollView>
+</LinearLayout>

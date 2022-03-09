@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:float="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".LoginActivity"
+    android:background="@drawable/street">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#B700BCD4">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome"
+            android:textColor="#fff"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hope_you_enjoy_the_stay"
+            android:textColor="#fff"
+            android:textSize="22sp"
+            android:layout_margin="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="10sp"
+                    android:textColor="#fff"
+                    android:background="@drawable/top_line"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/log_in"
+                    android:textSize="20sp"
+                    android:textColor="#fff"
+                    />
+            </LinearLayout>
+
+            <!--<android.support.design.widget.TextInputLayout-->
+                <!--android:id="@+id/usernameWrapper"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--&gt;-->
+
+                <!--<EditText-->
+                    <!--android:id="@+id/username"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:inputType="textEmailAddress"-->
+                    <!--android:hint="Username"-->
+                    <!--/>-->
+
+            <!--</android.support.design.widget.TextInputLayout>-->
+
+            <com.wrapp.floatlabelededittext.FloatLabeledEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                float:fletPadding="10dp"
+                android:textColor="#fff"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="50dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/email"
+                    android:id="@+id/user_email"
+                    android:textColor="#fff"
+                    android:textColorHint="#fff"
+                    android:inputType="textEmailAddress"
+                    android:backgroundTint="#fff"/>
+
+            </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+
+            <com.wrapp.floatlabelededittext.FloatLabeledEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                float:fletPadding="10dp"
+                android:textColor="#fff"
+                android:layout_margin="15dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/password"
+                    android:id="@+id/user_passwoed"
+                    android:textColor="#fff"
+                    android:textColorHint="#fff"
+                    android:inputType="textPassword"
+                    android:backgroundTint="#fff"/>
+            </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/login_btn"
+                android:onClick="checkLogin"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="@string/lang"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/white"
+                android:onClick="changeLang"/>
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:onClick="openBroser"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:background="@drawable/register_tv_bg"
+            android:padding="15dp"
+            android:text="@string/work_with_us"/>
+    </LinearLayout>
+</LinearLayout>

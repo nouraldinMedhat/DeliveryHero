@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_status"
+        android:icon="@drawable/check"
+        android:title="@string/status" />
+
+    <item
+        android:id="@+id/navigation_deliveries"
+        android:icon="@drawable/delivery"
+        android:title="@string/deliveries" />
+
+    <item
+        android:id="@+id/navigation_map"
+        android:icon="@drawable/map"
+        android:title="@string/map" />
+
+    <!--<item-->
+        <!--android:id="@+id/navigation_chat"-->
+        <!--android:icon="@drawable/chat"-->
+        <!--android:title="@string/chat" />-->
+
+    <item
+        android:id="@+id/navigation_history"
+        android:icon="@drawable/history"
+        android:title="@string/history" />
+
+</menu>

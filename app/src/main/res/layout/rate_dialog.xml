@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="20sp"
+        android:textColor="@color/dim_foreground_material_light"
+        android:text="@string/rate_this_resturant"
+        android:id="@+id/rateHeader"
+        android:gravity="center"
+        android:layout_centerHorizontal="true" />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingsBar"
+        android:clickable="false"
+        android:rating="0"
+        android:stepSize="1"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/separator"
+        android:layout_alignRight="@+id/rateHeader"
+        android:layout_alignEnd="@+id/rateHeader" />
+
+
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/submit"
+            android:background="#333"
+            android:id="@+id/Submit"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentRight="true"/>
+
+</LinearLayout>

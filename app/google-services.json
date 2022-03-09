@@ -1,0 +1,123 @@
+{
+  "project_info": {
+    "project_number": "222156731009",
+    "firebase_url": "https://sealteamdeliveryapp.firebaseio.com",
+    "project_id": "sealteamdeliveryapp",
+    "storage_bucket": "sealteamdeliveryapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:222156731009:android:7605b467298f897e",
+        "android_client_info": {
+          "package_name": "com.app.sealteamdelivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "222156731009-hl2hchap4nfcoofrns7jueki7kuq3tkr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.sealteamdelivery",
+            "certificate_hash": "ec009a740c7bc18a1fbd59359d6497cc53b723bd"
+          }
+        },
+        {
+          "client_id": "222156731009-e4o19f55cg47m59c8om5hid8fvffa1kp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNqKZ9iZvQ60gutoUDRZmkydWMxvIsss4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "222156731009-e4o19f55cg47m59c8om5hid8fvffa1kp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "222156731009-l7m6uq8iimimkl720no59v8tal1sp8rm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Seal-Hero-Delivery"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:222156731009:android:cdb4f91bd41de7ae",
+        "android_client_info": {
+          "package_name": "com.app.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "222156731009-kdrjsulcg0jvaeeok8t8msj6240asvif.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.test",
+            "certificate_hash": "ec009a740c7bc18a1fbd59359d6497cc53b723bd"
+          }
+        },
+        {
+          "client_id": "222156731009-aa3qubdlakdgrpbk0lj2cd6lvi4ufhgu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.test",
+            "certificate_hash": "55f5ef763bd580dc493dcf974abb39191a7b1aae"
+          }
+        },
+        {
+          "client_id": "222156731009-jmvjqu2ej6ranbd7ck8b0h34o76dimse.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.test",
+            "certificate_hash": "b828d5fa1f15c60ade9ff858e37c66521b34f038"
+          }
+        },
+        {
+          "client_id": "222156731009-cesfj3peo62r2bt9035i9p14bo4j2arn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.test",
+            "certificate_hash": "6f7796d9f6aabb8a5762f5c667a0abd0e68e234f"
+          }
+        },
+        {
+          "client_id": "222156731009-e4o19f55cg47m59c8om5hid8fvffa1kp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNqKZ9iZvQ60gutoUDRZmkydWMxvIsss4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "222156731009-e4o19f55cg47m59c8om5hid8fvffa1kp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "222156731009-l7m6uq8iimimkl720no59v8tal1sp8rm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Seal-Hero-Delivery"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
